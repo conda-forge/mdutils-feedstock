@@ -1,5 +1,5 @@
 {% set name = "mdutils" %}
-{% set version = "1.5.1" %}
+{% set version = "1.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mdutils-{{ version }}.tar.gz
-  sha256: 618edbf23b252d09717860c53972d69fdae67b61c78595004a18eac2ad0fd285
+  sha256: 647f3cf00df39fee6c57fa6738dc1160fce1788276b5530c87d43a70cdefdaf1
 
 build:
   noarch: python
